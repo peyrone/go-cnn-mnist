@@ -26,7 +26,7 @@ type PredictResponse struct {
 }
 
 func main() {
-	const imgPath = "test/three.png"
+	const imgPath = "test/four.png"
 
 	pixels, err := loadAndPreprocess(imgPath, model.InputWidth, model.InputHeight)
 	if err != nil {
